@@ -1,0 +1,32 @@
+.edit-box form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.edit-box .edit-input {
+  background-color: transparent;
+  color: white;
+  border: 1px solid DarkGray;
+  border-radius: 2px;
+  height: 25px;
+  width: 240px;
+  padding-left: 4px;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.button {
+  background-color: transparent;
+  border: none;
+  height: 30px;
+}
+
+.button:hover {
+  filter: brightness(75%);
+}

@@ -1,0 +1,33 @@
+.input-box form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-box .task-input {
+  background-color: transparent;
+  color: white;
+  height: 40px;
+  width: 350px;
+  padding-left: 30px;
+  border: 1px solid DarkGray;
+  border-radius: 2px;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.btn-add {
+  background-color: transparent;
+  color: rgb(45, 200, 45);
+  margin-left: 10px;
+  border: none;
+}
+
+.btn-add:hover {
+  filter: brightness(75%);
+}
