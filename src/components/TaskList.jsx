@@ -11,7 +11,6 @@ const TaskList = ({
   handleUpdateTask,
   handleBlur,
 }) => {
-  console.log(tasks);
   return (
     <div className="tasks-box">
       {tasks.map((task) => (
