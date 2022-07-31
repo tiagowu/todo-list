@@ -33,10 +33,10 @@ const Task = ({
         </span>
       )}
       <div className="buttons-box">
-        <button className="button btn-edit" onClick={() => handleEdit(task.id)}>
+        <button className="btn-edit" onClick={() => handleEdit(task.id)}>
           <BsPencilFill className="icon" />
         </button>
-        <button className="button btn-delete" onClick={() => handleDelete(task.id)}>
+        <button className="btn-delete" onClick={() => handleDelete(task.id)}>
           <BsTrashFill className="icon" />
         </button>
       </div>

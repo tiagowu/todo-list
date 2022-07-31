@@ -33,6 +33,7 @@
   color: rgb(45, 45, 200);
   border: none;
   height: 30px;
+  width: 28px;
 }
 
 .btn-delete {
@@ -40,6 +41,7 @@
   color: rgb(200, 45, 45);
   border: none;
   height: 30px;
+  width: 28px;
   margin-left: 10px;
 }
 
