@@ -1,10 +1,10 @@
 .input-box form {
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .input-box .task-input {
+  display: flex;
+  flex: 1;
   background-color: transparent;
   color: white;
   height: 40px;
