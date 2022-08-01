@@ -1,7 +1,7 @@
 .edit-box {
   display: flex;
-  justify-content: center;
   align-items: center;
+  flex: 1;
 }
 
 .edit-box .edit-input {

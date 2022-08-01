@@ -4,12 +4,13 @@
 }
 
 .task-box .task-name {
+  display: flex;
   color: white;
-  display: inline-block;
   word-wrap: break-word;
   line-height: 30px;
   max-width: 275px;
   padding-left: 5px;
+  flex: 1;
 }
 
 .task-box .task-complete {
@@ -18,7 +19,7 @@
 }
 
 .task-box .buttons-box {
-  margin-left: auto;
+  display: flex;
 }
 
 .icon {
@@ -53,7 +54,7 @@
 /* W3SCHOOLS CUSTOM CHECKBOX */
 /* Customize the label (the container) */
 .checkbox-container {
-  display: block;
+  display: flex;
   position: relative;
   height: 30px;
   width: 30px;
