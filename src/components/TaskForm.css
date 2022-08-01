@@ -20,6 +20,8 @@
 }
 
 .btn-add {
+  display: flex;
+  align-items: center;
   background-color: transparent;
   color: rgb(45, 200, 45);
   border: none;
